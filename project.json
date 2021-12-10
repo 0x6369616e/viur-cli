@@ -1,0 +1,11 @@
+{
+    "default": {
+        "distribution_folder": "./deploy",
+        "flare": {},
+        "sources_folder": "./sources"
+    },
+    "develop": {
+        "application_name": "human",
+        "version": "kev"
+    }
+}

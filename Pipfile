@@ -4,10 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-build="*"
-twine="*"
+build = "*"
+twine = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.9"
+
+[packages.e1839a8]
+path = "."
+editable = true
